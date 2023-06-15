@@ -45,7 +45,7 @@ except URLError as e:
 # nomalize json response 
 # output to the screen as a table
 
-streamlist.stop()
+streamlit.stop()
 
 #import snowflake.connector
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
